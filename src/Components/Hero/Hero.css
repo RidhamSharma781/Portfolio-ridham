@@ -33,7 +33,7 @@
     display: flex;
 }
 .dynamic{
-    margin-left: 15px;
+    /* margin-left: 15px; */
     background: linear-gradient(270deg,#DF8908 10%, #B415FF 100%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -54,6 +54,8 @@
     border-radius: 20px;
     padding: 10px 50px;
     transition: 0.5s;
+    /* box-shadow: rgb(31, 38, 52) 20px 20px 60px, rgb(31, 38, 52) -20px -20px 60px; */
+    transition: all 0.2s ease-in-out 0s !important;
 }
 .resume a{
     text-decoration: none;
