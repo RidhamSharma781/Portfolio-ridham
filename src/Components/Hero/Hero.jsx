@@ -10,19 +10,22 @@ const Hero = () => {
         typeSpeed: 70, // Typing speed in ms
         deleteSpeed: 50, // Deleting speed in ms
         delaySpeed: 1000 // Delay before starting to delete
-      });
+    });
     return (
         <div className='hero'>
             <div className="hero-left">
                 <h1>Hi,I am <br /> <span className='name'>Ridham Sharma</span> </h1>
                 <div className="effect">
                     <p className='static'>I am a <span className='dynamic'>{text}</span>
-                    <span><Cursor/></span>
+                        <span><Cursor /></span>
                     </p>
                 </div>
                 <p className='bio'>
                     I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.</p>
-                <div className="resume"><a href="">Check Resume</a></div>
+                <div className="btn-hero-left">
+                    <div className="resume"><a href="">Check Resume</a></div>
+                    <div className="connect"><a href="">Connect with me</a></div>
+                </div>
             </div>
             <div className="hero-right">
                 <img src={profile_img} alt="" />

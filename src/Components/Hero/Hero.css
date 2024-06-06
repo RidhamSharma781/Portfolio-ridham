@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 100px 200px;
+    margin: 90px 200px;
 }
 
 .hero-right img{
@@ -17,7 +17,7 @@
 }
 
 .hero-left h1{
-    font-size: 90px;
+    font-size: 80px;
     margin-bottom: 10px;
 }
 /* .name{
@@ -48,14 +48,28 @@
     color: rgba(242, 243, 244, 0.584);
 }
 .resume{
-    font-size: 25px;
+    font-size: 20px;
     width: fit-content;
     background: linear-gradient(270deg,#DF8908 10%, #B415FF 100%);
-    border-radius: 20px;
-    padding: 10px 50px;
+    border-radius: 50px;
+    padding: 13px 35px;
     transition: 0.5s;
-    /* box-shadow: rgb(31, 38, 52) 20px 20px 60px, rgb(31, 38, 52) -20px -20px 60px; */
-    transition: all 0.2s ease-in-out 0s !important;
+    transition: all 0.5s ease-in-out 0s !important;
+}
+.connect{
+    font-size: 20px;
+    width: fit-content;
+    border-radius: 50px;
+    border: 2px solid white;
+    padding: 13px 30px;
+}
+.connect a{
+    text-decoration: none;
+    color: white;
+}
+.connect:hover{
+    border: 2px solid #B415FF;
+    color: #DF8908;
 }
 .resume a{
     text-decoration: none;
@@ -63,6 +77,11 @@
 }
 .resume:hover{
     transform: scale(1.05);
+}
+.btn-hero-left{
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
 
     
