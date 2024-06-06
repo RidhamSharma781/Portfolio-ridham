@@ -1,10 +1,16 @@
 .skills{
-    margin: 20px 200px;
+    margin: 0px 200px 90px 200px;
+    text-align: center;
 }
 .skills h1{
     text-align: center;
+    display: inline-block;
     font-weight: 600;
     font-size: 50px;
+    background: linear-gradient(270deg,#DF8908 10%, #B415FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .skills p{
     text-align: center;
@@ -34,8 +40,12 @@
 } */
 .container-small h2{
     text-align: center;
-    color: rgba(242, 243, 244, 0.584);
-    font-size: 25px;
+    display: inline-block;
+    font-size: 30px;
+    background: linear-gradient(270deg,#DF8908 10%, #B415FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .container-small img{
     height: 24px;
