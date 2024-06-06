@@ -58,7 +58,7 @@ export const education = [
       title: "Movie Website",
       date: "024",
       description:
-        "Developed a movie website that gives IMDb rating of almost all the movies . It also shoes latest trending movies and theri trailers.No framework is used int this project.It is built using HTML,CSS,JS only.",
+        "Developed a movie website that gives IMDB rating of almost all the movies . It also shoes latest trending movies and their trailers.No framework is used in this project.It is built using HTML,CSS,JS only.",
       image:
        movie,
       tags: ["HTMl", "CSS", "JavaScript"],
@@ -85,7 +85,7 @@ export const education = [
       title: "SkyCast",
       date: "2023",
       description:
-        "A Weather App made with Android Studio that gives information regarding temperature,humidity,wind speed etc.",
+        "SkyCast is a weather app designed for Android, built using Android Studio with Java, offering real-time updates on temperature, humidity, and wind speed by fetching data from reliable APIs. The app features dynamic theme changes that reflect current weather conditions. ",
       image:
       skycast,
       tags: ["Java", "Firebase", "Android Studio", "Xml"],

@@ -27,7 +27,8 @@
     margin-top: 30px;
 }
 .container-small{
-    border: 1px solid white;
+    /* border: 1px solid black; */
+    box-shadow: 0 4px 8px 0 black;
     border-radius: 26px;
     /* box-shadow: #e0b3f5 0px 4px 4px; */
     width: 100%;
