@@ -54,7 +54,7 @@
     border-radius: 50px;
     padding: 13px 35px;
     transition: 0.5s;
-    transition: all 0.5s ease-in-out 0s !important;
+    transition: all 0.3s ease-in-out 0s !important;
 }
 .connect{
     font-size: 20px;
