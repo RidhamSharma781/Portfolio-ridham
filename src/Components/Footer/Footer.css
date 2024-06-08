@@ -1,0 +1,86 @@
+.footer{
+    margin: 0px 200px;
+    padding: 50px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+
+}
+.footer h3{
+    text-align: center;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 30px;
+    background: linear-gradient(270deg, #DF8908 37%, #B415FF 62%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.footer-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    font-size: 20px;
+}
+.footer-links p:hover{
+    cursor: pointer;
+    background: linear-gradient(270deg, #DF8908 37%, #B415FF 62%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.footer-social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.svg{
+    height: 30px;
+    width: 30px;
+    padding-top: 10px;
+}
+.svg:hover{
+    fill: white;
+}
+
+.footer-social a{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: block;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0 4px 5px rgba(0,0,0,.5);
+    transition: .6s;
+}
+.footer-social ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+.footer-social ul li:nth-child(1) a:hover{
+background: #3b5999;
+fill: white;
+}
+.footer-social ul li:nth-child(2) a:hover{
+background: #0077b5;
+fill: white;
+}
+.footer-social ul li:nth-child(3) a:hover{
+background: black;
+fill: white;
+}
+.footer-social ul li:nth-child(4) a:hover{
+background: #e4405f;
+fill: white;
+}
+.footer-social a:hover{
+    transform: translate(0,-10px);
+}
+.copyright{
+    text-align: center;
+    font-size: 0.9rem;
+}
