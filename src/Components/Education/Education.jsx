@@ -14,7 +14,7 @@ const Education = () => {
             <div className="header">
               <img src={stage.img} alt="" />
               <div className="education-info">
-                <div className="name">{stage.school}</div>
+                <div className="education-name">{stage.school}</div>
                 <div className="class">{stage.degree}</div>
                 <div className="year">{stage.date}</div>
               </div>

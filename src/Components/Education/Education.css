@@ -6,7 +6,7 @@
     text-align: center;
     display: inline-block;
     font-weight: 600;
-    font-size: 50px;
+    font-size: 60px;
     background: linear-gradient(270deg,#DF8908 10%, #B415FF 100%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -66,7 +66,7 @@
     align-items: flex-start;
     gap: 5px;
 }
-.name{
+.education-name{
     font-size: 20px;
     font-weight: 600;
     color: rgba(242, 243, 244, 0.6);
@@ -95,5 +95,5 @@
 .education-container:hover{
     transform: scale(1.03);
     box-shadow: none;
-    border: 1px solid gray;
+    border: 2px solid gray;
 }
