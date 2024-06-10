@@ -3,8 +3,46 @@ import './Contact.css'
 import mail_icon from '../../assets/mail_icon.svg'
 import location_icon from '../../assets/location_icon.svg'
 import call_icon from '../../assets/call_icon.svg'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Contact = () => {
+    const notify = () =>{
+        toast.success('Email sent successfully!', {
+            position: "top-center",
+            autoClose: 3000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "dark",
+            });
+    } 
+    const onSubmit = async (event) => {
+        event.preventDefault();
+        const formData = new FormData(event.target);
+
+        formData.append("access_key", "bb15f878-0566-4f53-8ab0-89468da28986");
+
+        const object = Object.fromEntries(formData);
+        const json = JSON.stringify(object);
+
+        const res = await fetch("https://api.web3forms.com/submit", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                Accept: "application/json"
+            },
+            body: json
+        }).then((res) => res.json());
+
+        if (res.success) {
+            console.log(res.message);
+            notify();
+        }
+        // Clear form fields by resetting the state
+    };
     return (
         <div className='contact scroll-margin' id='contact'>
             <h1>Get in touch</h1>
@@ -24,7 +62,7 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>
-                <form  className="contact-right">
+                <form onSubmit={onSubmit} className="contact-right">
                     <label htmlFor="">Your Name</label>
                     <input type="text" name='name' placeholder='Enter Your name' />
                     <label htmlFor="">Your Email</label>
@@ -34,6 +72,7 @@ const Contact = () => {
                     <button type='submit' className='contact-submit'>Submit</button>
                 </form>
             </div>
+            <ToastContainer/>
         </div>
     )
 }
