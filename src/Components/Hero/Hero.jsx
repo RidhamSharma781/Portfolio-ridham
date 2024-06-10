@@ -12,7 +12,7 @@ const Hero = () => {
         delaySpeed: 1000 // Delay before starting to delete
     });
     return (
-        <div className='hero'>
+        <div className='hero' id='home'>
             <div className="hero-left">
                 <h1>Hi,I am <br /> <span className='name'>Ridham Sharma</span> </h1>
                 <div className="effect">

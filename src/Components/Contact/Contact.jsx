@@ -6,7 +6,7 @@ import call_icon from '../../assets/call_icon.svg'
 
 const Contact = () => {
     return (
-        <div className='contact'>
+        <div className='contact scroll-margin' id='contact'>
             <h1>Get in touch</h1>
             <div className="contact-section">
                 <div className="contact-left">

@@ -84,3 +84,7 @@ fill: white;
     text-align: center;
     font-size: 0.9rem;
 }
+.anchor-link{
+    text-decoration: none;
+    color: white;
+}

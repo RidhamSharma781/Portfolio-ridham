@@ -4,6 +4,7 @@ import linkedin from '../../assets/linkedin.svg'
 import fb from '../../assets/facebook.svg'
 import twitter from '../../assets/twitter.svg'
 import insta from '../../assets/insta.svg'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 const Footer = () => {
   return (
@@ -11,11 +12,11 @@ const Footer = () => {
         <hr />
         <h3>Ridham Sharma</h3>
         <div className="footer-links">
-            <p>Home</p>
-            <p>Skills</p>
-            <p>Projects</p>
-            <p>Education</p>
-            <p>Contact</p>
+        <AnchorLink className='anchor-link' offset={50} href='#home' ><p>Home</p></AnchorLink>
+        <AnchorLink className='anchor-link' offset={50} href='#skills'><p>Skills</p></AnchorLink>
+        <AnchorLink className='anchor-link' offset={50} href='#projects'><p>Projects</p></AnchorLink>
+        <AnchorLink className='anchor-link' offset={50} href='#education'><p>Education</p></AnchorLink>
+        <AnchorLink className='anchor-link' offset={50} href='#contact'><p>Contact</p></AnchorLink>
         </div>
         <div className="footer-social">
             <ul>

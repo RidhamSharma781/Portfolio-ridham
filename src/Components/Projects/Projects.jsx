@@ -5,7 +5,7 @@ import { projects } from '../../Data/constants'
 
 const Projects = () => {
   return (
-    <div className='projects'>
+    <div className='projects' id='projects'>
       <h1>Projects</h1>
       <p>I have worked on many projects. From web apps to android apps. Here are some of my projects.</p>
       <div className="project-container">
