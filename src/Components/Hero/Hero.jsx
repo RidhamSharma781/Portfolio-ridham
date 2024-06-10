@@ -2,6 +2,7 @@ import React from 'react'
 import './Hero.css'
 import profile_img from '../../assets/IMG_9161.jpg'
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 const Hero = () => {
     const [text] = useTypewriter({
@@ -23,8 +24,8 @@ const Hero = () => {
                 <p className='bio'>
                     I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.</p>
                 <div className="btn-hero-left">
-                    <div className="resume"><a href="">Check Resume</a></div>
-                    <div className="connect"><a href="">Connect with me</a></div>
+                    <div className="resume"><a href=''>Check Resume</a></div>
+                    <div className="connect"><AnchorLink offset={50} href='#contact'>Connect with me</AnchorLink></div>
                 </div>
             </div>
             <div className="hero-right">
