@@ -11,7 +11,7 @@ export const education = [
       date: "2021 - 2025",
       grade: "8.91 CGPA",
       desc: "I am currently pursuing a Bachelor's degree in Electronics and Communication Engineering at Guru Nanak Dev University, Amritsar. I have completed 5 semesters and have a CGPA of 8.91. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Operating Systems, and Computer Networks, among others.",
-      degree: "Bachelor of Technology - BTech, Electronics and Communication Engineering",
+      degree: "Bachelor of Technology - BTech (ECE)",
     },
     {
       id: 1,

@@ -88,3 +88,29 @@ fill: white;
     text-decoration: none;
     color: white;
 }
+
+@media(max-width:768px){
+    .footer{
+        margin: 0px 50px;    
+    }
+    .footer h3{
+        font-size: 25px;
+    }
+    .footer-links{
+        gap: 20px;
+        font-size: 18px;
+    }
+    .footer-social{
+        gap: 20px;
+    }
+    .svg{
+        height: 20px;
+        width: 20px;
+        padding-top: 5px;
+    }
+    .footer-social a{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+    }
+}

@@ -64,11 +64,11 @@ const Contact = () => {
                 </div>
                 <form onSubmit={onSubmit} className="contact-right">
                     <label htmlFor="">Your Name</label>
-                    <input type="text" name='name' placeholder='Enter Your name' />
+                    <input type="text" required name='name' placeholder='Enter Your name' />
                     <label htmlFor="">Your Email</label>
-                    <input type="email" name='name' placeholder='Enter Your email' />
+                    <input type="email" required name='name' placeholder='Enter Your email' />
                     <label htmlFor="">Write your message here</label>
-                    <textarea name="message" rows='8' placeholder='Enter your message'></textarea>
+                    <textarea name="message" required rows='8' placeholder='Enter your message'></textarea>
                     <button type='submit' className='contact-submit'>Submit</button>
                 </form>
             </div>

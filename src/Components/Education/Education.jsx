@@ -8,7 +8,7 @@ const Education = () => {
       <h1>Education</h1>
       <p>My education has been a journey of self-discovery and growth. My educational details are as follows.</p>
       <section className="container-big-education">
-        <div className="border-helper">
+    
         {education.map((stage, idx) => {
           return <div key={idx} className="education-container">
             <div className="header">
@@ -25,7 +25,7 @@ const Education = () => {
             <p>{stage.desc}</p>
           </div>
         })}
-        </div>
+      
         
       </section>
     </div>

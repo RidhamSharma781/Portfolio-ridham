@@ -96,3 +96,28 @@
     transform: scale(1.1);
     transition: .3s;
 }
+
+@media(max-width:768px){
+    .contact{
+        margin: 0px 50px 50px 50px;
+        gap: 40px;
+    }
+    .contact>h1{
+        font-size: 40px;
+    }
+    .contact-section{
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 30px;
+    }
+    .contact-left{
+        gap: 15px;
+    }
+    .contact-left h1{
+        font-size: 30px;
+    }
+    .contact-left p{
+        font-size: 15px;
+        line-height: 20px;
+    }
+}
