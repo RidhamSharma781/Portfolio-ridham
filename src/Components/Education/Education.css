@@ -19,8 +19,13 @@
     margin: 15px 300px;
 }
 .container-big-education{
-   margin: 0px auto;
-   width: 730px;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: auto;
    /* border-left: 3px solid #B415FF; */
 }
 .education-container{
@@ -139,5 +144,21 @@
     }
     .education-container p{
         font-size: 13px;
+    }
+}
+@media(max-width:576px){
+    .education-container{
+        width: 300px;
+        margin: 40px 0px 20px 0px;
+        padding: 15px 20px;
+    }
+    .container-big-education{
+        margin-top: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        width: auto;
     }
 }

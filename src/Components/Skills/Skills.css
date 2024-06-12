@@ -94,7 +94,7 @@
         align-items: center; 
     }
     .container-small{
-        max-width: 251px;
+        max-width: 251\px;
         padding: 12px 20px;
         height: 250px;
     }
