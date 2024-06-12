@@ -111,3 +111,39 @@
     }
     
 }
+
+@media(max-width:568px){
+    .skills{
+        margin: 0px 50px 90px 50px;
+    }
+    .skills h1{
+        font-size: 35px;
+    }
+    .skills p{
+        font-size: 14px;
+        max-width: 500px;
+        margin: 20px auto;
+    }
+    .container-big{
+        gap: 20px; 
+        justify-content: center;
+        align-items: center; 
+    }
+    .container-small{
+        max-width: 251px;
+        padding: 12px 20px;
+        height: 250px;
+    }
+    .container-small h2{
+        font-size: 25px;
+    }
+    .container-small img{
+        height: 15px;
+        width: 15px;
+    }
+    .skill{
+        font-size: 12px;
+        font-weight: 400;
+    }
+    
+}
