@@ -118,7 +118,7 @@
 
 @media(max-width:768px){
     .projects{
-        margin: 0px 50px 90px 50px;
+        margin: 0px 20px 90px 20px;
     }
     .projects h1{
         font-size: 40px;
@@ -149,5 +149,40 @@
     .code{
         padding: 3px 7px;
         font-size: 12px;
+    }
+}
+@media(max-width:568px){
+    .projects{
+        margin: 0px 20px 45px 20px;
+    }
+    .projects h1{
+        font-size: 35px;
+    }
+    .projects>p{
+        font-size: 14px;
+        max-width: 500px;
+        margin: 20px auto;
+    }
+    .project-container{
+        gap: 20px;
+    }
+    .project{
+        width: 250px;
+        height: 400px;
+        overflow-y: scroll;
+    }
+    .desc{
+        font-size: 15px;
+    }
+    .live{
+        padding: 3px 7px;
+        font-size: 12px;
+    }
+    .code{
+        padding: 3px 7px;
+        font-size: 12px;
+    }
+    .project-btn{
+        margin-top: 15px;
     }
 }

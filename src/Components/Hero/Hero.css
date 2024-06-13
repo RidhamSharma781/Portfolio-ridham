@@ -107,11 +107,8 @@
     }
     .effect{
         font-size: 32px;
-        font-weight: 600;
-        margin-bottom: 10px;
-        margin-left: 215px;
-        display: flex;
-        text-align: center;
+        margin: 0px auto 10px auto;
+        width: 375px;
     }
     .dynamic{
         /* margin-left: 15px; */
@@ -149,10 +146,19 @@
     }
     .effect{
         font-size: 25px;
-        margin-left: 130px;
+        margin: 0px auto 10px auto;
+        width: 290px;
     }
     .bio{
         font-size: 17px;
         line-height: 30px;
+    }
+    .resume{
+        font-size: 17px;
+        padding: 13px 25px;
+    }
+    .connect{
+        font-size: 17px;
+        padding: 13px 20px;
     }
 }
