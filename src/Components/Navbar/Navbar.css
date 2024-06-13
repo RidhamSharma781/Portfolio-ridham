@@ -112,3 +112,16 @@
     
     }
 }
+@media(max-width:568px){
+    .nav-menu{
+        gap: 20px;
+        width: 250px;
+    }
+    .nav-menu li{
+        font-size: 20px;
+        flex-direction: row;
+        padding-left: 850px;
+        gap: 20px;
+    
+    }
+}

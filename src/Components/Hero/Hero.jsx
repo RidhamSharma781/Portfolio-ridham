@@ -24,7 +24,7 @@ const Hero = () => {
                 <p className='bio'>
                     I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.</p>
                 <div className="btn-hero-left">
-                    <div className="resume"><a href=''>Check Resume</a></div>
+                    <div className="resume"><a target='_blank' href='https://drive.google.com/file/d/15hj_mSy4stz44YJUeEiUFPlJknJb4o7l/view?usp=drivesdk'>Check Resume</a></div>
                     <div className="connect"><AnchorLink offset={50} href='#contact'>Connect with me</AnchorLink></div>
                 </div>
             </div>
