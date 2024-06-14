@@ -3,7 +3,7 @@ Welcome to my portfolio! This project showcases my skills, projects, and experie
 
 ### Weblink: [Live Website](https://portfolio-ridham.netlify.app)
 ## Some Images:
-<img width="450px;" src="https://github.com/RidhamSharma781/Portfolio/blob/main/Assets/Screenshot%202024-06-01%20135517.png"/>
+<img width="450px;" src="https://github.com/RidhamSharma781/Portfolio/blob/main/Assets/Screenshot%2024-06-14%235411.png"/>
 <img width="450px;" src="https://github.com/RidhamSharma781/Portfolio/blob/main/Assets/Screenshot%202024-06-01%20135529.png"/>
 <img width="450px;" src="https://github.com/RidhamSharma781/Portfolio/blob/main/Assets/Screenshot%202024-06-01%20135540.png"/>
 <img width="450px;" src="https://github.com/RidhamSharma781/Portfolio/blob/main/Assets/Screenshot%202024-06-01%20135555.png"/>
